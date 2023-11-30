@@ -1,10 +1,16 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "0362994213",
-    "database": "postgres",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "username": "postgres_d6ic_user",
+    "password": "u7I3xhh2RUpzrgM6PbBMZR6g7kKCHkDl",
+    "database": "postgres_d6ic",
+    "host": "dpg-clkaqd98mmjc73duclng-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
@@ -14,10 +20,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "ttbhanh",
-    "password": "5u89vX7AhNbF2hmIFrOitKoTcAA0HV3N",
-    "database": "tuandb",
-    "host": "dpg-clfb5a7jc5ks73e5n3n0-a.oregon-postgres.render.com",
+    "username": "postgres_d6ic_user",
+    "password": "u7I3xhh2RUpzrgM6PbBMZR6g7kKCHkDl",
+    "database": "postgres_d6ic",
+    "host": "dpg-clkaqd98mmjc73duclng-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
